@@ -31,3 +31,10 @@ gridView.setNumColumns(5);
 gridView.setAdapter(adapter);
 gridView.setExpanded(true);
 ```
+
+## Built With
+* [Android Studio](https://developer.android.com/studio/index.html)
+
+## Authors
+
+* **Harsh Shah** - *Initial work* - [Tweezer](https://github.com/harsh1711/Tweezer)
