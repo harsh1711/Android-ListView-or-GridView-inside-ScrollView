@@ -8,17 +8,17 @@ public class CustomListView extends ListView
  
 boolean expanded = false;
  
-public ExpandableHeightListView(Context context)
+public CustomListView(Context context)
     {
         super(context);
     }
  
-    public ExpandableHeightListView(Context context, AttributeSet attrs)
+    public CustomListView(Context context, AttributeSet attrs)
     {
         super(context, attrs);
     }
  
-    public ExpandableHeightListView(Context context, AttributeSet attrs,
+    public CustomListView(Context context, AttributeSet attrs,
             int defStyle)
     {
         super(context, attrs, defStyle);
@@ -32,7 +32,7 @@ public ExpandableHeightListView(Context context)
     @Override
     public void onMeasure(int widthMeasureSpec, int heightMeasureSpec)
     {
-        // HACK! TAKE THAT ANDROID!
+      
         if (isExpanded())
         {
             // Calculate entire height by providing a very large height hint.
